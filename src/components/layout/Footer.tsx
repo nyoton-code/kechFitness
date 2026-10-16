@@ -111,13 +111,22 @@ export default function Footer() {
           {/* Social Icons */}
           <div className="flex gap-4">
             {[
-              { text: "f", label: "Facebook" },
-              { text: "i", label: "Instagram" },
+              {
+                text: "f",
+                label: "Facebook",
+                link: "https://www.facebook.com/kechfitness",
+              },
+              {
+                text: "i",
+                label: "Instagram",
+                link: "https://www.instagram.com/kechfitness_marrakech",
+              },
               { text: "x", label: "Twitter" },
             ].map((social, idx) => (
               <a
                 key={idx}
-                href="#"
+                href={social.link}
+                target="_blank"
                 className="w-10 h-10 rounded-full bg-white/10 hover:bg-amber-500 hover:text-black flex items-center justify-center transition-all font-bold text-sm"
                 title={social.label}
               >

@@ -1,4 +1,4 @@
-const galleryImages = [
+export const galleryImages = [
   {
     id: 1,
     src: "/assests/imgs/gallery1.jpg",

@@ -1,10 +1,10 @@
-import Hero from "@/compenents/sections/Hero";
-import TrainingPrograms from "@/compenents/sections/TrainingPrograms";
-import Coaches from "@/compenents/sections/Coaches";
-import Club from "@/compenents/sections/Club";
-import Testimonials from "@/compenents/sections/Testimonials";
-import Pricing from "@/compenents/sections/Pricing";
-import Contact from "@/compenents/sections/Contact";
+import Hero from "@/components/sections/Hero";
+import TrainingPrograms from "@/components/sections/TrainingPrograms";
+import Coaches from "@/components/sections/Coaches";
+import Club from "@/components/sections/Club";
+import Testimonials from "@/components/sections/Testimonials";
+import Pricing from "@/components/sections/Pricing";
+import Contact from "@/components/sections/Contact";
 
 export default function Home() {
   return (

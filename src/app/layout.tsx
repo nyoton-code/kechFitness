@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Footer from "@/compenents/layout/Footer";
-import Navbar from "@/compenents/layout/Navbar";
-import "@fortawesome/fontawesome-svg-core/styles.css";
+import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
+// import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 

@@ -4,33 +4,6 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Coaches() {
-  const coaches = [
-    {
-      name: "Marcus Steel",
-      title: "Strength Coach",
-      specialty: "Weightlifting & Power",
-      img: "/assests/imgs/coach1.png",
-    },
-    {
-      name: "Elena Rodriguez",
-      title: "Cardio Specialist",
-      specialty: "HIIT & Endurance",
-      img: "/assests/imgs/coach2.png",
-    },
-    {
-      name: "James Wilson",
-      title: "Yoga Instructor",
-      specialty: "Flexibility & Mindfulness",
-      img: "/assests/imgs/coach1.png",
-    },
-    {
-      name: "Sarah Chen",
-      title: "Nutrition Expert",
-      specialty: "Performance Nutrition",
-      img: "/assests/imgs/coach2.png",
-    },
-  ];
-
   return (
     <section
       id="trainers"

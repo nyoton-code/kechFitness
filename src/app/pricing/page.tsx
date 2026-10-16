@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
 import { motion } from "framer-motion";
 
 export const pricingPlans = [
@@ -55,7 +54,7 @@ export default function Pricing() {
     <>
       <section className="relative w-full h-[70vh] md:h-lvh overflow-hidden">
         <Image
-          src="/assests/imgs/pricing.jpg"
+          src="/assests/imgs/coachess5.png"
           alt="Coaches Background"
           fill
           quality={75}
